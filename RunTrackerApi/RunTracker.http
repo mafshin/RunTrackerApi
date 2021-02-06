@@ -1,0 +1,28 @@
+@url = http://localhost:5000
+
+### Get all activites
+GET {{url}}/activity
+
+
+### Add a new activity
+POST {{url}}/activity
+Content-Type: application/json
+
+{
+    "Date": "2020-01-30"
+}
+
+
+### Get by id
+GET {{url}}/activity/943
+
+### Delete by id
+DELETE  {{url}}/activity/696    
+
+### Update by id
+PUT {{url}}/activity/943
+Content-Type: application/json
+
+{
+    "Date": "2100-01-25"
+}
