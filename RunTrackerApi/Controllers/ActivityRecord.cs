@@ -1,6 +1,6 @@
 using System;
 
-public partial class ActivityController
+namespace RunTrackerApi.Models
 {
     public class ActivityRecord
     {

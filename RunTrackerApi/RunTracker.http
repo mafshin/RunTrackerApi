@@ -14,15 +14,19 @@ Content-Type: application/json
 
 
 ### Get by id
-GET {{url}}/activity/943
+GET {{url}}/activity/371
 
 ### Delete by id
-DELETE  {{url}}/activity/696    
+DELETE  {{url}}/activity/517    
 
 ### Update by id
-PUT {{url}}/activity/943
+PUT {{url}}/activity/371
 Content-Type: application/json
 
 {
     "Date": "2100-01-25"
 }
+
+
+### Get Repository Id
+GET {{url}}/activity/repid
